@@ -21,27 +21,7 @@
     },
     {
         "event": "press",
-        "key": "enter"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.5646777153015137
-    },
-    {
-        "event": "release",
-        "key": "enter"
-    },
-    {
-        "event": "sleep",
-        "duration": 2.656287431716919
-    },
-    {
-        "event": "press",
         "key": "backspace"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.5604434013366699
     },
     {
         "event": "release",
@@ -165,7 +145,7 @@
     },
     {
         "event": "sleep",
-        "duration": 0.502986717224121
+        "duration": 0.202986717224121
     },
    
     {
@@ -242,6 +222,19 @@
     {
         "event": "release",
         "key": "backspace"
+    },
+    {
+        "event": "press",
+        "key": "backspace"
+    },
+    {
+        "event": "release",
+        "key": "backspace"
+    },
+
+    {
+        "event": "sleep",
+        "duration": 0.08047318458557129
     },
     {
         "event": "release",
