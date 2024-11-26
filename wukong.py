@@ -1,5 +1,6 @@
 import time
 import json
+import re
 from pynput import keyboard
 import pygetwindow as gw
 import pyautogui
@@ -62,16 +63,23 @@ def load_config(file):
         return json.load(f)
 
 
-def replay_keypresses(config, window_title):
+def find_window_by_title_regex(pattern):
+    """Find the first window whose title matches the given regex pattern."""
+    for window in gw.getAllWindows():
+        if re.search(pattern, window.title, re.IGNORECASE):
+            return window
+    return None
+
+
+def replay_keypresses(config, window_title_regex):
     # Find and focus on the window
-    windows = gw.getWindowsWithTitle(window_title)
-    if not windows:
-        print(f"No window found with title: {window_title}")
+    window = find_window_by_title_regex(window_title_regex)
+    if not window:
+        print(f"No window found matching title pattern: {window_title_regex}")
         return
 
-    window = windows[0]
     window.activate()
-    print(f"Focusing on window: {window_title}")
+    print(f"Focusing on window: {window.title}")
 
     # Replay the key presses
     for event in config:
@@ -102,8 +110,8 @@ def replay_mode():
         print(f"Configuration file '{CONFIG_FILE}' not found. Please record keypresses first.")
         return
 
-    window_title = input("Enter the window title to focus: ").strip()
-    replay_keypresses(config, window_title)
+    window_title_regex = input("Enter the window title regex pattern to focus: ").strip()
+    replay_keypresses(config, window_title_regex)
     print("Replay complete!")
 
 
