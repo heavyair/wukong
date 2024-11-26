@@ -73,7 +73,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.12068486213684082
+        "duration": 1.52068486213684082
     },
     {
         "event": "release",
@@ -93,7 +93,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.3253173828125
+        "duration": 1.5253173828125
     },
     {
         "event": "release",
@@ -125,164 +125,11 @@
     },
     {
         "event": "sleep",
-        "duration": 0.08017206192016602
+        "duration": 0.5017206192016602
     },
     {
         "event": "release",
         "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.7519774436950684
-    },
-   
-    {
-        "event": "release",
-        "key": "]"
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.5128402709960938
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.031236648559570312
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.031441688537597656
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03271150588989258
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03113698959350586
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.031430721282958984
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.0300445556640625
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03157210350036621
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03231191635131836
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.04609251022338867
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.0320737361907959
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.030816316604614258
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.0304262638092041
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03099822998046875
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.032057762145996094
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.030184268951416016
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03149724006652832
-    },
-    {
-        "event": "release",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.1359720230102539
     },
     {
         "event": "press",
@@ -290,7 +137,7 @@
     },
     {
         "event": "sleep",
-        "duration": 2.817342567443848
+        "duration": 2.0
     },
     {
         "event": "release",
@@ -302,167 +149,7 @@
     },
     {
         "event": "sleep",
-        "duration": 0.5011155605316162
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.0464785099029541
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03292441368103027
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.031101703643798828
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.029327869415283203
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03197312355041504
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.031624794006347656
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03230023384094238
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03075432777404785
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.030179977416992188
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.047376155853271484
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.031441450119018555
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03124833106994629
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03168916702270508
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03158068656921387
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.031012535095214844
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.030823945999145508
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.030768632888793945
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.01868748664855957
-    },
-    {
-        "event": "release",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.05453348159790039
-    },
-    {
-        "event": "press",
-        "key": "insert"
-    },
-    {
-        "event": "sleep",
-        "duration": 1.0106546401977539
+        "duration": 2.5106546401977539
     },
     {
         "event": "release",
@@ -478,7 +165,7 @@
     },
     {
         "event": "sleep",
-        "duration": 1.202986717224121
+        "duration": 0.502986717224121
     },
    
     {
@@ -518,6 +205,31 @@
     {
         "event": "press",
         "key": "4"
+    },
+    {
+        "event": "press",
+        "key": "backspace"
+    },
+    {
+        "event": "release",
+        "key": "backspace"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.08047318458557129
+    },
+
+    {
+        "event": "press",
+        "key": "backspace"
+    },
+    {
+        "event": "release",
+        "key": "backspace"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.08047318458557129
     },
     {
         "event": "press",
