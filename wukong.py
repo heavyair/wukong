@@ -3,10 +3,7 @@ import json
 import re
 import win32gui
 from pynput import keyboard
-import pygetwindow as gw
 import pyautogui
-
-
 
 # Configuration file
 CONFIG_FILE = "keypress_config.json"
@@ -15,41 +12,56 @@ CONFIG_FILE = "keypress_config.json"
 key_press_data = []
 last_event_time = None
 
+# To match key names with pyautogui.KEYBOARD_KEYS
+VALID_KEYS = pyautogui.KEYBOARD_KEYS
+
 
 def on_press(key):
     global last_event_time
     try:
-        key_name = key.char if key.char else str(key)
+        key_name = key.char if key.char in VALID_KEYS else str(key).replace("Key.", "")
     except AttributeError:
-        key_name = str(key)
+        key_name = str(key).replace("Key.", "")
+
+    if key_name not in VALID_KEYS:
+        print(f"Ignoring invalid key: {key_name}")
+        return
 
     current_time = time.time()
     time_elapsed = current_time - last_event_time if last_event_time else 0
     last_event_time = current_time
 
-    # Save the event
-    key_press_data.append({"event": "press", "key": key_name, "time_elapsed": time_elapsed})
+    # Add sleep event for time elapsed
+    if time_elapsed > 0:
+        key_press_data.append({"event": "sleep", "duration": time_elapsed})
 
-    # Print to stdout
-    print(f"Pressed: {key_name}, Time Elapsed Since Last Event: {time_elapsed:.6f} seconds")
+    # Add press event
+    key_press_data.append({"event": "press", "key": key_name})
+    print(f"Recorded press: {key_name}, Time Elapsed Since Last Event: {time_elapsed:.6f} seconds")
 
 
 def on_release(key):
     global last_event_time
     try:
-        key_name = key.char if key.char else str(key)
+        key_name = key.char if key.char in VALID_KEYS else str(key).replace("Key.", "")
     except AttributeError:
-        key_name = str(key)
+        key_name = str(key).replace("Key.", "")
+
+    if key_name not in VALID_KEYS:
+        print(f"Ignoring invalid key: {key_name}")
+        return
 
     current_time = time.time()
     time_elapsed = current_time - last_event_time if last_event_time else 0
     last_event_time = current_time
 
-    # Save the event
-    key_press_data.append({"event": "release", "key": key_name, "time_elapsed": time_elapsed})
+    # Add sleep event for time elapsed
+    if time_elapsed > 0:
+        key_press_data.append({"event": "sleep", "duration": time_elapsed})
 
-    # Print to stdout
-    print(f"Released: {key_name}, Time Elapsed Since Last Event: {time_elapsed:.6f} seconds")
+    # Add release event
+    key_press_data.append({"event": "release", "key": key_name})
+    print(f"Recorded release: {key_name}, Time Elapsed Since Last Event: {time_elapsed:.6f} seconds")
 
     # Stop recording if 'esc' is released
     if key == keyboard.Key.esc:
@@ -65,16 +77,12 @@ def load_config(file):
     with open(file, "r") as f:
         return json.load(f)
 
+
 def find_window_and_activate(window_title_search):
-    """Finds a window matching the search string and activates it.
-
-    Args:
-        window_title_search (str): The search string to match in the window title.
-    """
-
-    def callback(hwnd, lParam):
+    """Finds a window matching the search string and activates it."""
+    def callback(hwnd, _):
         window_text = win32gui.GetWindowText(hwnd)
-        if window_title_search.lower() in window_text.lower():  # Case-insensitive match
+        if re.search(window_title_search, window_text, re.IGNORECASE):  # Case-insensitive regex match
             try:
                 print(f"Activating window: {window_text} (HWND: {hwnd})")
                 win32gui.SetForegroundWindow(hwnd)
@@ -86,34 +94,21 @@ def find_window_and_activate(window_title_search):
     win32gui.EnumWindows(callback, None)
 
 
-
-
-
 def replay_keypresses(config, window_title_regex):
     # Find and focus on the window
     find_window_and_activate(window_title_regex)
-  
+
     # Replay the key presses
     for event in config:
-        # Sleep for the recorded interval
-        print(f"Sleeping for {event['time_elapsed']} seconds...")  # Print the sleep time
-        time.sleep(event["time_elapsed"])  # Wait based on the recorded interval
-        
-        if event["event"] == "press":
-            print(f"Pressing key '{event['key']}'...")  # Print the key being pressed
+        if event["event"] == "sleep":
+            print(f"Sleeping for {event['duration']} seconds...")
+            time.sleep(event["duration"])
+        elif event["event"] == "press":
+            print(f"Pressing key '{event['key']}'...")
             pyautogui.keyDown(event["key"])
-            
-            # Optional: Sleep for the duration of key press if specified
-            if event.get("hold_duration"):
-                print(f"Holding key '{event['key']}' for {event['hold_duration']} seconds...")
-                time.sleep(event["hold_duration"])  # Hold the key for the recorded time
-            else:
-                print(f"Key '{event['key']}' pressed for a short duration.")
-        
         elif event["event"] == "release":
-            print(f"Releasing key '{event['key']}'...")  # Print the key being released
+            print(f"Releasing key '{event['key']}'...")
             pyautogui.keyUp(event["key"])
-
 
 
 def record_mode():
@@ -128,7 +123,6 @@ def record_mode():
         save_config(key_press_data, CONFIG_FILE)
         print(f"Key presses saved to {CONFIG_FILE}")
 
-
 def replay_mode():
     try:
         config = load_config(CONFIG_FILE)
@@ -136,11 +130,16 @@ def replay_mode():
         print(f"Configuration file '{CONFIG_FILE}' not found. Please record keypresses first.")
         return
 
-    #window_title_regex = input("Enter the window title regex pattern to focus: ").strip()
-    #window_title_regex = "Chiaki | Stream" 
-    window_title_regex = "new 11" 
-    replay_keypresses(config, window_title_regex)
-    print("Replay complete!")
+    window_title_regex = "Chiaki | Stream"  # Replace this with your desired window title
+    print("Starting replay loop. Press Ctrl+C to stop.")
+    
+    try:
+        while True:
+            replay_keypresses(config, window_title_regex)
+            print("Replay cycle complete. Restarting...")
+    except KeyboardInterrupt:
+        print("\nReplay loop interrupted by user. Exiting.")
+
 
 
 def main():

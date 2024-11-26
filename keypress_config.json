@@ -1,2887 +1,1057 @@
 [
     {
-        "event": "release",
-        "key": "Key.enter",
-        "time_elapsed": 0
+        "event": "sleep",
+        "duration": 5.977226257324219
     },
     {
         "event": "press",
-        "key": "4",
-        "time_elapsed": 3.93649458885193
+        "key": "4"
     },
     {
-        "event": "release",
-        "key": "4",
-        "time_elapsed": 0.10382962226867676
-    },
-    {
-        "event": "press",
-        "key": "Key.enter",
-        "time_elapsed": 1.439007759094238
+        "event": "sleep",
+        "duration": 0.0707406997680664
     },
     {
         "event": "release",
-        "key": "Key.enter",
-        "time_elapsed": 0.05639290809631348
+        "key": "4"
+    },
+    {
+        "event": "sleep",
+        "duration": 3.89591646194458
     },
     {
         "event": "press",
-        "key": "Key.backspace",
-        "time_elapsed": 1.136105537414551
+        "key": "enter"
     },
     {
-        "event": "release",
-        "key": "Key.backspace",
-        "time_elapsed": 0.06388688087463379
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 13.736015796661377
+        "event": "sleep",
+        "duration": 0.5646777153015137
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.10432887077331543
+        "key": "enter"
+    },
+    {
+        "event": "sleep",
+        "duration": 3.656287431716919
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 1.9356606006622314
+        "key": "backspace"
     },
     {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.5093941688537598
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030247211456298828
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031651973724365234
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.029552459716796875
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04680228233337402
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03033733367919922
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03101038932800293
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030910491943359375
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03166532516479492
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030274629592895508
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031395673751831055
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032074928283691406
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03276562690734863
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04551410675048828
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031435251235961914
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03154277801513672
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030331134796142578
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032628536224365234
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0326390266418457
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030666828155517578
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.029938936233520508
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03145742416381836
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.047255754470825195
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031058549880981445
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03178715705871582
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031845808029174805
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03211832046508789
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030200719833374023
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030642271041870117
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032100677490234375
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030763626098632812
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031591176986694336
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04776334762573242
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030439138412475586
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03146052360534668
+        "event": "sleep",
+        "duration": 0.5604434013366699
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.015230655670166016
+        "key": "backspace"
+    },
+    {
+        "event": "sleep",
+        "duration": 3.5756988525390625
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 2.1838231086730957
+        "key": "]"
     },
     {
-        "event": "release",
-        "key": "]",
-        "time_elapsed": 0.16025590896606445
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.21522784233093262
+        "event": "sleep",
+        "duration": 0.20833373069763184
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.1277463436126709
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 2.0386524200439453
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 0.1288161277770996
+        "key": "delete"
     },
     {
-        "event": "release",
-        "key": "]",
-        "time_elapsed": 0.11224818229675293
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.14366650581359863
+        "event": "sleep",
+        "duration": 0.12068486213684082
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.11201620101928711
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.6561281681060791
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 0.12814569473266602
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.07204341888427734
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.10432147979736328
+        "key": "delete"
     },
     {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.20002222061157227
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.5104219913482666
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0316925048828125
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031177282333374023
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03123760223388672
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031389474868774414
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031529903411865234
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031436920166015625
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0311739444732666
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.046708106994628906
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030848979949951172
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03185081481933594
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03215360641479492
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03127551078796387
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03162860870361328
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032622575759887695
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0312657356262207
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.029415607452392578
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0465550422668457
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03154754638671875
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031070470809936523
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030727148056030273
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030626535415649414
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030616044998168945
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031132936477661133
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03235578536987305
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.045873403549194336
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03125929832458496
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031204700469970703
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03143167495727539
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03065967559814453
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031701087951660156
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030530929565429688
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03070664405822754
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.046218156814575195
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031574249267578125
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032883405685424805
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.029196739196777344
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032051801681518555
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03085613250732422
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03108978271484375
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030683517456054688
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04626798629760742
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030879974365234375
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03049921989440918
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030506134033203125
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03152823448181152
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03106522560119629
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030966520309448242
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032500267028808594
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04769253730773926
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030768394470214844
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03165602684020996
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03293204307556152
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03097224235534668
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.029674291610717773
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03169584274291992
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03133392333984375
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031676530838012695
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031737565994262695
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0467534065246582
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031160831451416016
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03200030326843262
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032141923904418945
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03140592575073242
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032103538513183594
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03125333786010742
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03119659423828125
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031617164611816406
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03158164024353027
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031569719314575195
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.046838998794555664
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030383586883544922
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03179359436035156
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03141140937805176
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0315248966217041
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031626224517822266
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030458688735961914
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031189680099487305
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0315401554107666
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04772663116455078
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030555248260498047
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031891822814941406
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030117273330688477
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03115677833557129
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0303192138671875
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03205394744873047
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03153562545776367
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03133106231689453
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04744672775268555
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031173229217529297
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03126978874206543
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030747175216674805
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03173542022705078
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030336618423461914
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03205060958862305
+        "event": "sleep",
+        "duration": 0.17568016052246094
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031024456024169922
+        "key": "delete"
     },
     {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03181648254394531
+        "event": "sleep",
+        "duration": 0.10406088829040527
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.026367664337158203
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.1286008358001709
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 0.8245046138763428
+        "key": "delete"
     },
     {
-        "event": "release",
-        "key": "]",
-        "time_elapsed": 0.12025189399719238
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 2.560249090194702
+        "event": "sleep",
+        "duration": 0.07147359848022461
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.12002277374267578
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.12821030616760254
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 1.7920026779174805
+        "key": "delete"
     },
     {
-        "event": "release",
-        "key": "]",
-        "time_elapsed": 0.12783432006835938
-    },
-    {
-        "event": "press",
-        "key": "Key.delete",
-        "time_elapsed": 2.9431920051574707
+        "event": "sleep",
+        "duration": 0.08840203285217285
     },
     {
         "event": "release",
-        "key": "Key.delete",
-        "time_elapsed": 0.13594532012939453
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.2318110466003418
     },
     {
         "event": "press",
-        "key": "Key.delete",
-        "time_elapsed": 0.8241751194000244
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.507575511932373
+    },
+    {
+        "event": "press",
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03323101997375488
+    },
+    {
+        "event": "press",
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030585050582885742
+    },
+    {
+        "event": "press",
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.033200979232788086
+    },
+    {
+        "event": "press",
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031179428100585938
+    },
+    {
+        "event": "press",
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03135561943054199
+    },
+    {
+        "event": "press",
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.02072763442993164
     },
     {
         "event": "release",
-        "key": "Key.delete",
-        "time_elapsed": 0.11937808990478516
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.8799118995666504
     },
     {
         "event": "press",
-        "key": "Key.delete",
-        "time_elapsed": 0.568432092666626
+        "key": "delete"
     },
     {
-        "event": "release",
-        "key": "Key.delete",
-        "time_elapsed": 0.15190911293029785
-    },
-    {
-        "event": "press",
-        "key": "Key.delete",
-        "time_elapsed": 1.3850712776184082
-    },
-    {
-        "event": "release",
-        "key": "Key.delete",
-        "time_elapsed": 0.11999201774597168
+        "event": "sleep",
+        "duration": 0.515329122543335
     },
     {
         "event": "press",
-        "key": "Key.delete",
-        "time_elapsed": 1.567176103591919
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.012526273727416992
     },
     {
         "event": "release",
-        "key": "Key.delete",
-        "time_elapsed": 0.12034988403320312
+        "key": "delete"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.9917569160461426
     },
     {
         "event": "press",
-        "key": "Key.delete",
-        "time_elapsed": 1.3915157318115234
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.5139191150665283
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03253173828125
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030835390090942383
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03162336349487305
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030309438705444336
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030141592025756836
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031102895736694336
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.04518532752990723
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031039953231811523
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030917644500732422
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03214454650878906
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030364274978637695
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03059077262878418
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031740665435791016
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03248000144958496
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03055262565612793
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.046857357025146484
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030224323272705078
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031378984451293945
+    },
+    {
+        "event": "press",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03019094467163086
+    },
+    {
+        "event": "sleep",
+        "duration": 1.58378005027771
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.05654311180114746
     },
     {
         "event": "release",
-        "key": "Key.delete",
-        "time_elapsed": 0.2250690460205078
+        "key": "insert"
     },
     {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.9516313076019287
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.5000619888305664
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04644918441772461
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03213167190551758
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03115534782409668
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03157377243041992
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030498504638671875
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031054258346557617
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03238677978515625
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.029806852340698242
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030581235885620117
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04648542404174805
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031253814697265625
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031023502349853516
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031265974044799805
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031896114349365234
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03084707260131836
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031560659408569336
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03211498260498047
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031317710876464844
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04561138153076172
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03174567222595215
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0314481258392334
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.029834985733032227
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031230926513671875
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03308224678039551
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.02998661994934082
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04489254951477051
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03096318244934082
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030781984329223633
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032315969467163086
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031110763549804688
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03079366683959961
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03284621238708496
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03177618980407715
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030558347702026367
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03208565711975098
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04741191864013672
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03016948699951172
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03209996223449707
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03169584274291992
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.02975296974182129
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.032050371170043945
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031074047088623047
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031271934509277344
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0458216667175293
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03133058547973633
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030528545379638672
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03195071220397949
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03141021728515625
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031981706619262695
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030541658401489258
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03075718879699707
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03149271011352539
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04741930961608887
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03188633918762207
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030224323272705078
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03243279457092285
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030424118041992188
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0316317081451416
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030674457550048828
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030810832977294922
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03150796890258789
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.04599618911743164
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.0320587158203125
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031139135360717773
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03191971778869629
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03099799156188965
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030641794204711914
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03182697296142578
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030465126037597656
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03072333335876465
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.048122406005859375
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03317403793334961
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.029905319213867188
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03222775459289551
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031170129776000977
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030061006546020508
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.03154635429382324
+        "event": "sleep",
+        "duration": 0.12758231163024902
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 0.031064510345458984
+        "key": "insert"
     },
     {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.030380725860595703
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.046051740646362305
+        "event": "sleep",
+        "duration": 0.08017206192016602
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.007550239562988281
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.7519774436950684
+    },
+   
+    {
+        "event": "release",
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 1.0173382759094238
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 7.520423650741577
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.5128402709960938
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031236648559570312
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031441688537597656
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03271150588989258
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03113698959350586
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031430721282958984
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.0300445556640625
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03157210350036621
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03231191635131836
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.04609251022338867
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.0320737361907959
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030816316604614258
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.0304262638092041
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03099822998046875
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.032057762145996094
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030184268951416016
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03149724006652832
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.04537653923034668
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031079769134521484
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03319597244262695
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.029689788818359375
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03089618682861328
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03133845329284668
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.032341957092285156
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031343936920166016
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030097007751464844
+    },
+    {
+        "event": "press",
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.0029528141021728516
     },
     {
         "event": "release",
-        "key": "Key.insert",
-        "time_elapsed": 0.12773823738098145
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.1359720230102539
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.8881993293762207
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.5017342567443848
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.5117824077606201
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.04774975776672363
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03180742263793945
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.02936410903930664
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031008243560791016
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.033296823501586914
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03139543533325195
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03136849403381348
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03148508071899414
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03101801872253418
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03199434280395508
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.029278278350830078
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031147003173828125
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03259539604187012
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03153800964355469
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03202986717224121
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04606771469116211
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030777454376220703
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03212380409240723
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03134727478027344
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031627655029296875
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030452966690063477
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03194308280944824
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030357837677001953
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030665159225463867
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04691147804260254
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030848026275634766
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03129720687866211
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03162550926208496
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030795812606811523
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03090047836303711
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03162860870361328
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03096771240234375
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.046076059341430664
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03205084800720215
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03170013427734375
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03136157989501953
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03133797645568848
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030709505081176758
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03081512451171875
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03114795684814453
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031632184982299805
+        "key": "]"
     },
     {
         "event": "release",
-        "key": "Key.insert",
-        "time_elapsed": 0.017901897430419922
+        "key": "]"
+    },
+    {
+        "event": "sleep",
+        "duration": 1.0710668563842773
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 1.7601728439331055
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.5011155605316162
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.5037188529968262
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.0464785099029541
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030629396438598633
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03292441368103027
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04594278335571289
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031101703643798828
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0321345329284668
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.029327869415283203
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031287193298339844
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03197312355041504
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03247237205505371
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031624794006347656
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03126859664916992
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03230023384094238
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03052997589111328
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03075432777404785
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031905412673950195
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030179977416992188
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03077244758605957
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.047376155853271484
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031068086624145508
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.031441450119018555
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.045789480209350586
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03124833106994629
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03118133544921875
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03168916702270508
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03159666061401367
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.03158068656921387
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03174853324890137
+        "key": "insert"
     },
     {
-        "event": "release",
-        "key": "Key.insert",
-        "time_elapsed": 0.02730250358581543
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.43259143829345703
+        "event": "sleep",
+        "duration": 0.031012535095214844
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.5082998275756836
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030823945999145508
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.02982807159423828
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.030768632888793945
     },
     {
         "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031546831130981445
+        "key": "insert"
     },
     {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031691789627075195
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03161215782165527
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.046410560607910156
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0308835506439209
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0317842960357666
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030555248260498047
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03267669677734375
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.029964447021484375
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03220868110656738
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03158974647521973
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0328216552734375
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.045275211334228516
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030405759811401367
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0317683219909668
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03087925910949707
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0310671329498291
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03144073486328125
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03190493583679199
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03050971031188965
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03221297264099121
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04680132865905762
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030807018280029297
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031629323959350586
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030759572982788086
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031058549880981445
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031174182891845703
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031090497970581055
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0308229923248291
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.046784400939941406
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03196215629577637
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0310208797454834
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03140711784362793
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031751155853271484
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030844688415527344
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03144717216491699
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.029740571975708008
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03093552589416504
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04488348960876465
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030983924865722656
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03209733963012695
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030823469161987305
+        "event": "sleep",
+        "duration": 0.01868748664855957
     },
     {
         "event": "release",
-        "key": "Key.insert",
-        "time_elapsed": 0.025591373443603516
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.05453348159790039
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 2.97686767578125
+        "key": "insert"
     },
     {
-        "event": "release",
-        "key": "]",
-        "time_elapsed": 0.15973186492919922
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.2159724235534668
+        "event": "sleep",
+        "duration": 0.03106546401977539
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.14375925064086914
+        "key": "insert"
+    },
+    {
+        "event": "sleep",
+        "duration": 1.77627730369568
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 0.06490087509155273
+        "key": "4"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.5101163387298584
+    },
+    {
+        "event": "press",
+        "key": "4"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.014641284942626953
+    },
+    {
+        "event": "press",
+        "key": "backspace"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.08047318458557129
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.06258392333984375
-    },
-    {
-        "event": "press",
-        "key": "]",
-        "time_elapsed": 0.3931891918182373
+        "key": "backspace"
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.11943840980529785
+        "key": "4"
+    },
+    {
+        "event": "sleep",
+        "duration": 2.40808963775634766
+    },
+
+    {
+        "event": "press",
+        "key": "4"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.014641284942626953
     },
     {
         "event": "press",
-        "key": "]",
-        "time_elapsed": 1.4641563892364502
+        "key": "backspace"
+    },
+    {
+        "event": "sleep",
+        "duration": 1.08047318458557129
     },
     {
         "event": "release",
-        "key": "]",
-        "time_elapsed": 0.14424872398376465
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 2.3116674423217773
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.5106568336486816
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030937671661376953
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03070807456970215
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030941247940063477
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031195640563964844
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030772686004638672
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04660320281982422
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031920433044433594
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03158259391784668
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030858516693115234
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03241395950317383
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031212806701660156
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030436992645263672
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031171560287475586
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.046120643615722656
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.029408931732177734
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030431270599365234
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030550479888916016
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03107309341430664
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03166532516479492
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030739784240722656
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03264355659484863
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04539132118225098
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031248092651367188
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030944108963012695
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031215906143188477
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03032851219177246
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031168460845947266
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03209042549133301
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04571533203125
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030723094940185547
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03091740608215332
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030545473098754883
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03037858009338379
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031255245208740234
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030268430709838867
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.046643972396850586
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03099536895751953
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03093123435974121
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0311279296875
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03140068054199219
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0302274227142334
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03150534629821777
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03181886672973633
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04662132263183594
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031169652938842773
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03205990791320801
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031162738800048828
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030192852020263672
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03087019920349121
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03165721893310547
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03162336349487305
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03155803680419922
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031331777572631836
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.047423362731933594
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030852079391479492
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030959367752075195
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030527830123901367
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03210306167602539
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031227588653564453
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03095698356628418
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031200885772705078
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04674959182739258
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031728267669677734
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031908273696899414
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03135991096496582
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03112053871154785
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03154802322387695
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03180956840515137
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031009435653686523
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031362056732177734
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030933380126953125
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.0458683967590332
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031027793884277344
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03145265579223633
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03118586540222168
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031423330307006836
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03102588653564453
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030035734176635742
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.04606437683105469
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030524015426635742
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03159761428833008
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030638694763183594
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031604766845703125
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03203129768371582
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03072381019592285
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031093835830688477
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.032042741775512695
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.046259403228759766
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.031461238861083984
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.03208661079406738
-    },
-    {
-        "event": "press",
-        "key": "Key.insert",
-        "time_elapsed": 0.030538082122802734
+        "key": "backspace"
     },
     {
         "event": "release",
-        "key": "Key.insert",
-        "time_elapsed": 0.006765604019165039
+        "key": "4"
     },
     {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 18.28037977218628
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.5098190307617188
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031058788299560547
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03162741661071777
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030615806579589844
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.0302581787109375
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.04629778861999512
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03062748908996582
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031035900115966797
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03195810317993164
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030360937118530273
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031138181686401367
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03204512596130371
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030943870544433594
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.0470278263092041
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030771732330322266
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.033089637756347656
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030775785446166992
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.029918193817138672
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.0316469669342041
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03171086311340332
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03144049644470215
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.029967546463012695
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.046161651611328125
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03183460235595703
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03021860122680664
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030959129333496094
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030320167541503906
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03197503089904785
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.032367706298828125
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03222036361694336
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03124690055847168
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.04660964012145996
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030490398406982422
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.0316312313079834
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.0299990177154541
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03217887878417969
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03143024444580078
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03049778938293457
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03249025344848633
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.04609322547912598
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.032292842864990234
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030716419219970703
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030241727828979492
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03219795227050781
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03108358383178711
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031011104583740234
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.032379150390625
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030130624771118164
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03167152404785156
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.047522544860839844
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031473398208618164
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03083944320678711
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03191065788269043
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03220534324645996
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03073263168334961
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031183242797851562
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03311443328857422
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030199289321899414
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030913829803466797
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.0476071834564209
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031215667724609375
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03117990493774414
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03195333480834961
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03175187110900879
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031775474548339844
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03086400032043457
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031362056732177734
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03136587142944336
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03179931640625
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.044795989990234375
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031016111373901367
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03180646896362305
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030080080032348633
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031442880630493164
+        "event": "sleep",
+        "duration": 11.168001413345337
     },
     {
         "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030767440795898438
+        "key": "o"
     },
     {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030815601348876953
-    },
-    {
-        "event": "press",
-        "key": "Key.backspace",
-        "time_elapsed": 0.016042232513427734
+        "event": "sleep",
+        "duration": 0.07979726791381836
     },
     {
         "event": "release",
-        "key": "Key.backspace",
-        "time_elapsed": 0.06386303901672363
+        "key": "o"
+    },
+    {
+        "event": "sleep",
+        "duration": 7.928366422653198
+    },
+    {
+        "event": "press",
+        "key": "3"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.08806824684143066
     },
     {
         "event": "release",
-        "key": "4",
-        "time_elapsed": 0.3592827320098877
+        "key": "3"
+    },
+    {
+        "event": "sleep",
+        "duration": 4.439891815185547
     },
     {
         "event": "press",
-        "key": "4",
-        "time_elapsed": 2.2732887268066406
+        "key": "enter"
     },
     {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.5146474838256836
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.029721736907958984
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03137922286987305
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031099557876586914
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.030354976654052734
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03237795829772949
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03126406669616699
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031301021575927734
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031342506408691406
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.046053171157836914
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03035259246826172
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.031352996826171875
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03139352798461914
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03104853630065918
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.0308077335357666
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 0.03208041191101074
-    },
-    {
-        "event": "press",
-        "key": "Key.backspace",
-        "time_elapsed": 0.003000497817993164
+        "event": "sleep",
+        "duration": 0.04013943672180176
     },
     {
         "event": "release",
-        "key": "Key.backspace",
-        "time_elapsed": 0.07159638404846191
+        "key": "enter"
     },
     {
-        "event": "release",
-        "key": "4",
-        "time_elapsed": 0.312222957611084
-    },
-    {
-        "event": "press",
-        "key": "o",
-        "time_elapsed": 14.008118152618408
-    },
-    {
-        "event": "release",
-        "key": "o",
-        "time_elapsed": 0.06345200538635254
+        "event": "sleep",
+        "duration": 1.567335605621338
     },
     {
         "event": "press",
-        "key": "3",
-        "time_elapsed": 8.880789279937744
+        "key": "enter"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.05669045448303223
     },
     {
         "event": "release",
-        "key": "3",
-        "time_elapsed": 0.10395622253417969
+        "key": "enter"
     },
     {
-        "event": "press",
-        "key": "Key.enter",
-        "time_elapsed": 3.1673364639282227
-    },
-    {
-        "event": "release",
-        "key": "Key.enter",
-        "time_elapsed": 0.06479334831237793
-    },
-    {
-        "event": "press",
-        "key": "Key.enter",
-        "time_elapsed": 1.1031272411346436
-    },
-    {
-        "event": "release",
-        "key": "Key.enter",
-        "time_elapsed": 0.07265853881835938
-    },
-    {
-        "event": "press",
-        "key": "4",
-        "time_elapsed": 37.16832208633423
-    },
-    {
-        "event": "release",
-        "key": "4",
-        "time_elapsed": 0.07190489768981934
-    },
-    {
-        "event": "press",
-        "key": "Key.enter",
-        "time_elapsed": 4.767616271972656
-    },
-    {
-        "event": "release",
-        "key": "Key.enter",
-        "time_elapsed": 0.07162714004516602
-    },
-    {
-        "event": "press",
-        "key": "Key.backspace",
-        "time_elapsed": 4.2084245681762695
-    },
-    {
-        "event": "release",
-        "key": "Key.backspace",
-        "time_elapsed": 0.04752993583679199
-    },
-    {
-        "event": "press",
-        "key": "Key.esc",
-        "time_elapsed": 4.8407981395721436
-    },
-    {
-        "event": "release",
-        "key": "Key.esc",
-        "time_elapsed": 0.07171225547790527
+        "event": "sleep",
+        "duration": 23.03983736038208
     }
+   
 ]
