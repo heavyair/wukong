@@ -1,7 +1,7 @@
 [
     {
         "event": "sleep",
-        "duration": 5.977226257324219
+        "duration": 2.977226257324219
     },
     {
         "event": "press",
@@ -17,7 +17,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.89591646194458
+        "duration": 2.89591646194458
     },
     {
         "event": "press",
@@ -33,7 +33,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.656287431716919
+        "duration": 2.656287431716919
     },
     {
         "event": "press",
@@ -49,7 +49,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.5756988525390625
+        "duration": 1.5756988525390625
     },
     {
         "event": "press",
@@ -62,10 +62,6 @@
     {
         "event": "release",
         "key": "]"
-    },
-    {
-        "event": "sleep",
-        "duration": 2.0386524200439453
     },
     {
         "event": "press",
@@ -926,19 +922,19 @@
     },
     {
         "event": "press",
-        "key": "4"
+        "key": "]"
     },
     {
         "event": "sleep",
-        "duration": 0.5101163387298584
+        "duration": 1.202986717224121
+    },
+    {
+        "event": "release",
+        "key": "]"
     },
     {
         "event": "press",
         "key": "4"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.514641284942626953
     },
     {
         "event": "press",
@@ -958,7 +954,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.40808963775634766
+        "duration": 1.40808963775634766
     },
 
     {
@@ -966,24 +962,12 @@
         "key": "4"
     },
     {
-        "event": "sleep",
-        "duration": 0.5101163387298584
-    },
-    {
-        "event": "press",
-        "key": "4"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.54641284942626953
-    },
-    {
         "event": "press",
         "key": "backspace"
     },
     {
         "event": "sleep",
-        "duration": 1.08047318458557129
+        "duration": 0.08047318458557129
     },
     {
         "event": "release",
@@ -1011,7 +995,7 @@
     },
     {
         "event": "sleep",
-        "duration": 7.928366422653198
+        "duration": 4.928366422653198
     },
     {
         "event": "press",
@@ -1027,7 +1011,7 @@
     },
     {
         "event": "sleep",
-        "duration": 4.439891815185547
+        "duration": 2.439891815185547
     },
     {
         "event": "press",
@@ -1059,7 +1043,7 @@
     },
     {
         "event": "sleep",
-        "duration": 23.03983736038208
+        "duration": 20.03983736038208
     }
    
 ]
