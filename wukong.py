@@ -9,50 +9,43 @@ CONFIG_FILE = "keypress_config.json"
 
 # Global variables
 key_press_data = []
-recording = True
 last_event_time = None
 
 
 def on_press(key):
     global last_event_time
-    if not recording:
-        return
-
     try:
         key_name = key.char if key.char else str(key)
     except AttributeError:
         key_name = str(key)
 
     current_time = time.time()
-    time_duration = current_time - last_event_time if last_event_time else 0
+    time_elapsed = current_time - last_event_time if last_event_time else 0
     last_event_time = current_time
 
     # Save the event
-    key_press_data.append({"event": "press", "key": key_name, "time": current_time})
+    key_press_data.append({"event": "press", "key": key_name, "time_elapsed": time_elapsed})
 
     # Print to stdout
-    print(f"Pressed: {key_name}, Saved Key: {key_name}, Time Since Last Event: {time_duration:.6f} seconds")
+    print(f"Pressed: {key_name}, Time Elapsed Since Last Event: {time_elapsed:.6f} seconds")
 
 
 def on_release(key):
     global last_event_time
-    if not recording:
-        return
-
     try:
         key_name = key.char if key.char else str(key)
     except AttributeError:
         key_name = str(key)
 
     current_time = time.time()
-    time_duration = current_time - last_event_time if last_event_time else 0
+    time_elapsed = current_time - last_event_time if last_event_time else 0
     last_event_time = current_time
 
     # Save the event
-    key_press_data.append({"event": "release", "key": key_name, "time": current_time})
+    key_press_data.append({"event": "release", "key": key_name, "time_elapsed": time_elapsed})
 
     # Print to stdout
-    print(f"Released: {key_name}, Saved Key: {key_name}, Time Since Last Event: {time_duration:.6f} seconds")
+    print(f"Released: {key_name}, Time Elapsed Since Last Event: {time_elapsed:.6f} seconds")
 
     # Stop recording if 'esc' is released
     if key == keyboard.Key.esc:
@@ -81,12 +74,8 @@ def replay_keypresses(config, window_title):
     print(f"Focusing on window: {window_title}")
 
     # Replay the key presses
-    start_time = config[0]["time"]
     for event in config:
-        time_to_wait = event["time"] - start_time
-        time.sleep(time_to_wait)
-        start_time = event["time"]
-
+        time.sleep(event["time_elapsed"])  # Wait based on the recorded interval
         if event["event"] == "press":
             pyautogui.keyDown(event["key"])
         elif event["event"] == "release":
@@ -94,16 +83,14 @@ def replay_keypresses(config, window_title):
 
 
 def record_mode():
-    global recording
+    global last_event_time
+    last_event_time = None  # Reset timing
     print("Recording mode: Press 'esc' to stop recording...")
     with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
         listener.join()
 
-    # Calculate intervals and save data
+    # Save data
     if key_press_data:
-        start_time = key_press_data[0]["time"]
-        for event in key_press_data:
-            event["time"] -= start_time  # Normalize time to start at 0
         save_config(key_press_data, CONFIG_FILE)
         print(f"Key presses saved to {CONFIG_FILE}")
 
