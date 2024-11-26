@@ -8,16 +8,12 @@
         "key": "4"
     },
     {
-        "event": "sleep",
-        "duration": 0.507406997680664
-    },
-    {
         "event": "release",
         "key": "4"
     },
     {
         "event": "sleep",
-        "duration": 2.89591646194458
+        "duration": 3.0
     },
     {
         "event": "press",
@@ -29,7 +25,7 @@
     },
     {
         "event": "sleep",
-        "duration": 1.5756988525390625
+        "duration": 1.6
     },
     {
         "event": "press",
