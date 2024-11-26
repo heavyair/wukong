@@ -132,11 +132,24 @@ def replay_mode():
 
     window_title_regex = "Chiaki | Stream"  # Replace this with your desired window title
     print("Starting replay loop. Press Ctrl+C to stop.")
+
+    program_start_time = time.time()  # Track the program's start time
     
     try:
+        loop_count = 0
         while True:
+            loop_start_time = time.time()  # Start time of the current loop
+            
             replay_keypresses(config, window_title_regex)
-            print("Replay cycle complete. Restarting...")
+            
+            loop_end_time = time.time()  # End time of the current loop
+            loop_duration = loop_end_time - loop_start_time
+            total_duration = loop_end_time - program_start_time
+            
+            loop_count += 1
+            print(f"Replay cycle {loop_count} complete.")
+            print(f"Time used in this loop: {loop_duration:.2f} seconds.")
+            print(f"Total time elapsed since program started: {total_duration:.2f} seconds.")
     except KeyboardInterrupt:
         print("\nReplay loop interrupted by user. Exiting.")
 

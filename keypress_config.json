@@ -369,34 +369,6 @@
     },
     {
         "event": "press",
-        "key": "]"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.030224323272705078
-    },
-    {
-        "event": "press",
-        "key": "]"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.031378984451293945
-    },
-    {
-        "event": "press",
-        "key": "]"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.03019094467163086
-    },
-    {
-        "event": "sleep",
-        "duration": 1.58378005027771
-    },
-    {
-        "event": "press",
         "key": "insert"
     },
     {
@@ -894,7 +866,7 @@
     },
     {
         "event": "sleep",
-        "duration": 0.77627730369568
+        "duration": 0.07627730369568
     },
     {
         "event": "press",
@@ -930,7 +902,7 @@
     },
     {
         "event": "sleep",
-        "duration": 1.40808963775634766
+        "duration": 1.0808963775634766
     },
 
     {
@@ -955,7 +927,7 @@
     },
     {
         "event": "sleep",
-        "duration": 7.168001413345337
+        "duration": 3.168001413345337
     },
     {
         "event": "press",
