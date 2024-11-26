@@ -9,7 +9,7 @@
     },
     {
         "event": "sleep",
-        "duration": 0.0707406997680664
+        "duration": 1.0707406997680664
     },
     {
         "event": "release",
@@ -938,7 +938,7 @@
     },
     {
         "event": "sleep",
-        "duration": 0.014641284942626953
+        "duration": 0.514641284942626953
     },
     {
         "event": "press",
@@ -958,7 +958,7 @@
     },
     {
         "event": "sleep",
-        "duration": 2.40808963775634766
+        "duration": 3.40808963775634766
     },
 
     {
@@ -967,7 +967,15 @@
     },
     {
         "event": "sleep",
-        "duration": 0.014641284942626953
+        "duration": 0.5101163387298584
+    },
+    {
+        "event": "press",
+        "key": "4"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.54641284942626953
     },
     {
         "event": "press",
