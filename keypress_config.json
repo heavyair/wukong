@@ -7,7 +7,7 @@
     {
         "event": "press",
         "key": "4",
-        "time_elapsed": 16.93649458885193
+        "time_elapsed": 3.93649458885193
     },
     {
         "event": "release",
@@ -17,7 +17,7 @@
     {
         "event": "press",
         "key": "Key.enter",
-        "time_elapsed": 4.439007759094238
+        "time_elapsed": 1.439007759094238
     },
     {
         "event": "release",
@@ -27,7 +27,7 @@
     {
         "event": "press",
         "key": "Key.backspace",
-        "time_elapsed": 5.136105537414551
+        "time_elapsed": 1.136105537414551
     },
     {
         "event": "release",
@@ -37,7 +37,7 @@
     {
         "event": "press",
         "key": "]",
-        "time_elapsed": 23.736015796661377
+        "time_elapsed": 13.736015796661377
     },
     {
         "event": "release",

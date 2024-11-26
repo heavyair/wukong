@@ -1,9 +1,12 @@
 import time
 import json
 import re
+import win32gui
 from pynput import keyboard
 import pygetwindow as gw
 import pyautogui
+
+
 
 # Configuration file
 CONFIG_FILE = "keypress_config.json"
@@ -62,32 +65,55 @@ def load_config(file):
     with open(file, "r") as f:
         return json.load(f)
 
+def find_window_and_activate(window_title_search):
+    """Finds a window matching the search string and activates it.
 
-def find_window_by_title_regex(pattern):
-    """Find the first window whose title matches the given regex pattern."""
-    for window in gw.getAllWindows():
-        if re.search(pattern, window.title, re.IGNORECASE):
-            return window
-    return None
+    Args:
+        window_title_search (str): The search string to match in the window title.
+    """
+
+    def callback(hwnd, lParam):
+        window_text = win32gui.GetWindowText(hwnd)
+        if window_title_search.lower() in window_text.lower():  # Case-insensitive match
+            try:
+                print(f"Activating window: {window_text} (HWND: {hwnd})")
+                win32gui.SetForegroundWindow(hwnd)
+            except Exception as e:
+                print(f"Failed to activate window: {e}")
+            return False  # Stop enumeration
+        return True
+
+    win32gui.EnumWindows(callback, None)
+
+
+
 
 
 def replay_keypresses(config, window_title_regex):
     # Find and focus on the window
-    window = find_window_by_title_regex(window_title_regex)
-    if not window:
-        print(f"No window found matching title pattern: {window_title_regex}")
-        return
-
-    window.activate()
-    print(f"Focusing on window: {window.title}")
-
+    find_window_and_activate(window_title_regex)
+  
     # Replay the key presses
     for event in config:
+        # Sleep for the recorded interval
+        print(f"Sleeping for {event['time_elapsed']} seconds...")  # Print the sleep time
         time.sleep(event["time_elapsed"])  # Wait based on the recorded interval
+        
         if event["event"] == "press":
+            print(f"Pressing key '{event['key']}'...")  # Print the key being pressed
             pyautogui.keyDown(event["key"])
+            
+            # Optional: Sleep for the duration of key press if specified
+            if event.get("hold_duration"):
+                print(f"Holding key '{event['key']}' for {event['hold_duration']} seconds...")
+                time.sleep(event["hold_duration"])  # Hold the key for the recorded time
+            else:
+                print(f"Key '{event['key']}' pressed for a short duration.")
+        
         elif event["event"] == "release":
+            print(f"Releasing key '{event['key']}'...")  # Print the key being released
             pyautogui.keyUp(event["key"])
+
 
 
 def record_mode():
@@ -110,7 +136,9 @@ def replay_mode():
         print(f"Configuration file '{CONFIG_FILE}' not found. Please record keypresses first.")
         return
 
-    window_title_regex = input("Enter the window title regex pattern to focus: ").strip()
+    #window_title_regex = input("Enter the window title regex pattern to focus: ").strip()
+    #window_title_regex = "Chiaki | Stream" 
+    window_title_regex = "new 11" 
     replay_keypresses(config, window_title_regex)
     print("Replay complete!")
 
