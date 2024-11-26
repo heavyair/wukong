@@ -65,6 +65,10 @@
     },
     {
         "event": "press",
+        "key": "3"
+    },
+    {
+        "event": "press",
         "key": "delete"
     },
     {
@@ -476,10 +480,16 @@
         "event": "sleep",
         "duration": 1.202986717224121
     },
+   
     {
         "event": "release",
         "key": "]"
     },
+    {
+        "event": "release",
+        "key": "3"
+    },
+
     {
         "event": "press",
         "key": "4"
