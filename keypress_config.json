@@ -225,16 +225,12 @@
         "key": "o"
     },
     {
-        "event": "sleep",
-        "duration": 0.07979726791381836
-    },
-    {
         "event": "release",
         "key": "o"
     },
     {
         "event": "sleep",
-        "duration": 4.528366422653198
+        "duration": 2.68
     },
     {
         "event": "press",
@@ -246,15 +242,11 @@
     },
     {
         "event": "sleep",
-        "duration": 3.439891815185547
+        "duration": 1.439891815185547
     },
     {
         "event": "press",
         "key": "enter"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.04013943672180176
     },
     {
         "event": "release",
@@ -262,15 +254,11 @@
     },
     {
         "event": "sleep",
-        "duration": 1.567335605621338
+        "duration": 1.067335605621338
     },
     {
         "event": "press",
         "key": "enter"
-    },
-    {
-        "event": "sleep",
-        "duration": 0.05669045448303223
     },
     {
         "event": "release",

@@ -88,7 +88,7 @@ def find_window_and_activate(window_title_search):
                 win32gui.SetForegroundWindow(hwnd)
             except Exception as e:
                 print(f"Failed to activate window: {e}")
-            return False  # Stop enumeration
+            #return False  # Stop enumeration
         return True
 
     win32gui.EnumWindows(callback, None)
