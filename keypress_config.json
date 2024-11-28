@@ -218,7 +218,7 @@
     },
     {
         "event": "sleep",
-        "duration": 5.68
+        "duration": 3.68
     },
     {
         "event": "press",
@@ -230,7 +230,7 @@
     },
     {
         "event": "sleep",
-        "duration": 2.68
+        "duration": 1.68
     },
     {
         "event": "press",
@@ -242,7 +242,7 @@
     },
     {
         "event": "sleep",
-        "duration": 1.439891815185547
+        "duration": 0.5
     },
     {
         "event": "press",
@@ -254,7 +254,7 @@
     },
     {
         "event": "sleep",
-        "duration": 1.067335605621338
+        "duration": 0.5
     },
     {
         "event": "press",
