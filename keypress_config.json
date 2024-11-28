@@ -13,7 +13,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.0
+        "duration": 3.5
     },
     {
         "event": "press",
@@ -25,7 +25,7 @@
     },
     {
         "event": "sleep",
-        "duration": 1.6
+        "duration": 2
     },
     {
         "event": "press",
@@ -230,7 +230,7 @@
     },
     {
         "event": "sleep",
-        "duration": 1.68
+        "duration": 3.0
     },
     {
         "event": "press",
@@ -242,11 +242,15 @@
     },
     {
         "event": "sleep",
-        "duration": 0.5
+        "duration": 3.0
     },
     {
         "event": "press",
         "key": "enter"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.10
     },
     {
         "event": "release",
@@ -254,11 +258,15 @@
     },
     {
         "event": "sleep",
-        "duration": 0.5
+        "duration": 1.5
     },
     {
         "event": "press",
         "key": "enter"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.10
     },
     {
         "event": "release",
