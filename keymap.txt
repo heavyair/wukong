@@ -1,0 +1,12 @@
+
+
+
+4 +  Enter   ok
+4 + \  Ok
+4+ 1  ok
+4+  backspace
+
+o 
+3
+enter
+enter
