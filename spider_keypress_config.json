@@ -13,7 +13,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.5
+        "duration": 3.0
     },
     {
         "event": "press",
@@ -25,7 +25,7 @@
     },
     {
         "event": "sleep",
-        "duration": 2
+        "duration": 1.6
     },
     {
         "event": "press",
@@ -218,11 +218,15 @@
     },
     {
         "event": "sleep",
-        "duration": 3.68
+        "duration": 5.68
     },
     {
         "event": "press",
         "key": "o"
+    },
+    {
+        "event": "sleep",
+        "duration": 0.07979726791381836
     },
     {
         "event": "release",
@@ -230,7 +234,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.0
+        "duration": 4.528366422653198
     },
     {
         "event": "press",
@@ -242,7 +246,7 @@
     },
     {
         "event": "sleep",
-        "duration": 3.0
+        "duration": 3.439891815185547
     },
     {
         "event": "press",
@@ -250,7 +254,7 @@
     },
     {
         "event": "sleep",
-        "duration": 0.10
+        "duration": 0.04013943672180176
     },
     {
         "event": "release",
@@ -258,7 +262,7 @@
     },
     {
         "event": "sleep",
-        "duration": 1.5
+        "duration": 1.567335605621338
     },
     {
         "event": "press",
@@ -266,7 +270,7 @@
     },
     {
         "event": "sleep",
-        "duration": 0.10
+        "duration": 0.05669045448303223
     },
     {
         "event": "release",
